@@ -9,6 +9,8 @@ module.exports = {
     extend: {
       colors: {
         light: '#7CACF8',
+        'light-font-color': '#041E49',
+        'white-font-color': '#041E49B3',
       },
       fontFamily: {
         'open-sans': ['"Open Sans"', 'sans-serif'],
