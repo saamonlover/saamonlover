@@ -14,9 +14,14 @@ module.exports = {
         'navbar-light-font-color': '#041E49B3',
 
         'intro-dark-font-color': '#FFF',
+        'intro-dark-button-bg': '#FFF',
+        'intro-dark-button-font-color': '#041E49B3',
       },
       fontFamily: {
         'open-sans': ['"Open Sans"', 'sans-serif'],
+      },
+      fontWeight: {
+        'intro-content': 600,
       },
     },
   },
