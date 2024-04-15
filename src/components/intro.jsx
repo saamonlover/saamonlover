@@ -3,10 +3,13 @@ import React from 'react'
 const Intro = ({ darkMode }) => {
   const headlinerStyle = 'font-semibold text-5xl'
   const contentStyle = 'font-medium text-xl'
+  const buttonFontColor = darkMode
+    ? 'text-intro-dark-button-font-color'
+    : 'text-intro-light-button-font-color'
 
   return (
     <div className='pl-36'>
-      <div className='text-intro-dark-font-color'>
+      <div className='text-intro-font-color'>
         <div className='flex flex-row'>
           <div className='font-open-sans flex flex-col items-start'>
             <div className={`${headlinerStyle} pb-4`}>Nice to meet you</div>
@@ -20,7 +23,9 @@ const Intro = ({ darkMode }) => {
 
             <div className='pt-12'>
               <div className={`flex flex-row gap-x-12 ${contentStyle}`}>
-                <button className='bg-intro-dark-button-bg text-intro-dark-button-font-color font-semibold rounded-md px-8 py-4'>
+                <button
+                  className={`bg-intro-button-bg ${buttonFontColor} font-semibold rounded-md px-8 py-4`}
+                >
                   Contact me
                 </button>
                 <a href='#' className='py-4'>
