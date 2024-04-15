@@ -8,9 +8,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        light: '#7CACF8',
-        'light-font-color': '#041E49',
-        'white-font-color': '#041E49B3',
+        'navbar-light': '#FFF',
+        'navbar-dark': '#7CACF8',
+        'navbar-dark-font-color': '#041E49',
+        'navbar-light-font-color': '#041E49B3',
+
+        'intro-dark-font-color': '#FFF',
       },
       fontFamily: {
         'open-sans': ['"Open Sans"', 'sans-serif'],

@@ -12,8 +12,8 @@ const Navbar = ({ darkMode, setDarkMode }) => {
     <nav
       className={
         darkMode
-          ? 'bg-light text-light-font-color fixed top-0 w-full font-open-sans font-semibold'
-          : 'bg-white text-white-font-color fixed top-0 w-full font-open-sans font-semibold'
+          ? 'bg-navbar-dark text-navbar-dark-font-color fixed top-0 w-full font-open-sans font-semibold'
+          : 'bg-navbar-light text-navbar-light-font-color fixed top-0 w-full font-open-sans font-semibold'
       }
     >
       <div className='flex flex-row justify-between pl-4 py-4'>
