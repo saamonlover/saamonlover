@@ -17,6 +17,11 @@ module.exports = {
         'intro-button-bg': '#FFF',
         'intro-light-button-font-color': '#1A73E8',
         'intro-dark-button-font-color': '#112537',
+
+        'project-dark-card-bg': '#1B3A57',
+        'project-light-card-bg': '#FFF',
+        'project-light-font-color': '#424242',
+        'project-dark-font-color': '#FFF',
       },
       fontFamily: {
         'open-sans': ['"Open Sans"', 'sans-serif'],
