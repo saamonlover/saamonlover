@@ -8,7 +8,7 @@ const Intro = ({ darkMode }) => {
     : 'text-intro-light-button-font-color'
 
   return (
-    <div className='pl-36'>
+    <div className='mt-60 pl-36'>
       <div className='text-intro-font-color'>
         <div className='flex flex-row'>
           <div className='font-open-sans flex flex-col items-start'>

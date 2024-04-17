@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react'
 
 import Navbar from '../components/navbar'
 import Intro from '../components/intro'
+import Projects from '../components/projects'
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false)
@@ -20,10 +21,11 @@ export default function Home() {
           ? 'var(--dark-background)'
           : 'var(--light-background)',
       }}
-      className='min-h-screen flex flex-col justify-center text-center'
+      className='min-h-screen flex flex-col text-center'
     >
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <Intro darkMode={darkMode} />
+      <Projects darkMode={darkMode} />
     </div>
   )
 }
