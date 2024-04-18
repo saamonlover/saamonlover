@@ -20,6 +20,9 @@ module.exports = {
 
         'project-dark-card-bg': '#1B3A57',
         'project-light-card-bg': '#FFF',
+        'project-light-subcard-bg': '#F8F9FA',
+        'project-light-subcard-bg-hover': '#D2E3F4',
+        'project-dark-subcard-bg-hover': '#112537',
         'project-light-font-color': '#424242',
         'project-dark-font-color': '#FFF',
       },
