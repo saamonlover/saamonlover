@@ -7,6 +7,10 @@ const Intro = ({ darkMode }) => {
     ? 'text-intro-dark-button-font-color'
     : 'text-intro-light-button-font-color'
 
+  const introIconURL = darkMode
+    ? '/assets/introicon-dark.png'
+    : '/assets/introicon-light.png'
+
   return (
     <div className='mt-60 px-36'>
       <div className='text-intro-font-color'>
@@ -39,7 +43,11 @@ const Intro = ({ darkMode }) => {
             </div>
           </div>
 
-          <img src='/assets/introicon.png' alt="Intro Icon" className='w-96 h-96 rounded-3xl mr-16' />
+          <img
+            src={introIconURL}
+            alt='Intro Icon'
+            className='w-96 h-96 rounded-3xl mr-16'
+          />
         </div>
       </div>
     </div>
