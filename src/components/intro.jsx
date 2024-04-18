@@ -8,9 +8,9 @@ const Intro = ({ darkMode }) => {
     : 'text-intro-light-button-font-color'
 
   return (
-    <div className='mt-60 pl-36'>
+    <div className='mt-60 px-36'>
       <div className='text-intro-font-color'>
-        <div className='flex flex-row'>
+        <div className='flex flex-row justify-between'>
           <div className='font-open-sans flex flex-col items-start'>
             <div className={`${headlinerStyle} pb-4`}>Nice to meet you</div>
             <div className={`${headlinerStyle} pb-12`}>this is Ricky</div>
@@ -39,8 +39,7 @@ const Intro = ({ darkMode }) => {
             </div>
           </div>
 
-          {/* TODO: replace the placeholder below with animated image */}
-          <div className='ml-20 w-96 h-160 border border-gray-500'></div>
+          <img src='/assets/introicon.png' alt="Intro Icon" className='w-96 h-96 rounded-3xl mr-16' />
         </div>
       </div>
     </div>
