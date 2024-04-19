@@ -5,6 +5,7 @@ import React, { useState, useEffect } from 'react'
 import Navbar from '../components/navbar'
 import Intro from '../components/intro'
 import Projects from '../components/projects'
+import TechStack from '@/components/techstack'
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false)
@@ -26,6 +27,7 @@ export default function Home() {
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <Intro darkMode={darkMode} />
       <Projects darkMode={darkMode} />
+      <TechStack darkMode={darkMode} />
     </div>
   )
 }
