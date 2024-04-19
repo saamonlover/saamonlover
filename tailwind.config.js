@@ -25,7 +25,9 @@ module.exports = {
         'project-dark-subcard-bg-hover': '#112537',
         'project-light-font-color': '#424242',
         'project-dark-font-color': '#FFF',
-        'project-view-all-button-font-color': '#92CCEB',
+        'project-light-view-all-button-font-color': '#1967D2',
+        'project-light-link-hover-color': '#1967D2',
+        'project-dark-view-all-button-font-color': '#92CCEB',
         'project-dark-link-hover-color': '#92CCEB',
       },
       fontFamily: {

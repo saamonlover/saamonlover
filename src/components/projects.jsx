@@ -18,12 +18,18 @@ const Projects = ({ darkMode }) => {
     : 'hover:bg-project-light-subcard-bg-hover'
   subcardActiveStyle += ' cursor-pointer transition duration-500 ease-in-out'
 
-  const viewAllProjectsLinkStyle = `
+  let viewAllProjectsLinkStyle = `
     w-fit mx-auto px-4 py-2 rounded-lg
-    text-project-view-all-button-font-color font-semibold text-lg
+    font-semibold text-lg
     cursor-pointer transition duration-500 ease-in-out
-    hover:bg-project-dark-link-hover-color hover:bg-opacity-20 hover:text-white hover:text-project-view-all-button-font-color
+    hover:bg-project-dark-link-hover-color hover:bg-opacity-20
     `.trim()
+
+  darkMode
+    ? (viewAllProjectsLinkStyle +=
+        ' text-project-dark-view-all-button-font-color hover:text-project-dark-view-all-button-font-color')
+    : (viewAllProjectsLinkStyle +=
+        ' text-project-light-view-all-button-font-color hover:text-project-light-view-all-button-font-color')
 
   const [viewAll, setViewAll] = useState(false)
   const ProjectList = () => (
