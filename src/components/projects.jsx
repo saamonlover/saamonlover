@@ -34,7 +34,7 @@ const Projects = ({ darkMode }) => {
           <div className='p-16'>
             <img
               src='/assets/mobileicon.png'
-              alt='Web Icon'
+              alt='Mobile Icon'
               width='200'
               height='200'
             />
@@ -45,7 +45,7 @@ const Projects = ({ darkMode }) => {
           <div className='p-16'>
             <img
               src='/assets/othericon.png'
-              alt='Web Icon'
+              alt='Other Icon'
               width='200'
               height='200'
             />
