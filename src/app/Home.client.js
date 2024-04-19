@@ -21,7 +21,7 @@ export default function Home() {
           ? 'var(--dark-background)'
           : 'var(--light-background)',
       }}
-      className='min-h-screen flex flex-col text-center'
+      className='min-h-screen flex flex-col text-center pb-24'
     >
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <Intro darkMode={darkMode} />
