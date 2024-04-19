@@ -15,7 +15,7 @@ const Intro = ({ darkMode }) => {
     <div className='mt-60 px-36'>
       <div className='text-intro-font-color'>
         <div className='flex flex-row justify-between'>
-          <div className='font-open-sans flex flex-col items-start'>
+          <div className='ml-16 font-open-sans flex flex-col items-start'>
             <div className={`${headlinerStyle} pb-4`}>Nice to meet you</div>
             <div className={`${headlinerStyle} pb-12`}>this is Ricky</div>
 
