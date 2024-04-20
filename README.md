@@ -34,10 +34,8 @@ I'm a full-stack developer specializing in React and Node.js. I love building we
 ## Connect w/ me
 
 <p>
-  <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png" width="30" style="vertical-align: middle;" />
-  <span style="vertical-align: middle;">saamonlover</span>
+  <span style="vertical-align: middle;"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png" width="30" style="vertical-align: middle;" /> saamonlover</span>
 </p>
 <p>
-  <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-512.png" width="30" style="vertical-align: middle;" />
-  <span style="vertical-align: middle;">www.linkedin.com/in/jiaqi-ricky-gu</span>
+  <span style="vertical-align: middle;"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-512.png" width="30" style="vertical-align: middle;" /> www.linkedin.com/in/jiaqi-ricky-gu</span>
 </p>
