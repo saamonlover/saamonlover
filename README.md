@@ -1,6 +1,6 @@
 # Hello, I'm Ricky 👋
 
-I'm a full-stack developer specializing in React and Node.js. I love building web and mobile applications and exploring new technologies.
+I'm a full-stack (more of a front-end) developer specializing in React and Node.js. I love building web and mobile applications and exploring new technologies.
 
 ## About Me
 
