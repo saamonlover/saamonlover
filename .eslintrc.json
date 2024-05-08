@@ -1,7 +1,0 @@
-{
-  "extends": ["prettier", "next/core-web-vitals"],
-  "rules": {},
-  "parserOptions": {
-    "ecmaVersion": "latest"
-  }
-}
