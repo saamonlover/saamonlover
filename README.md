@@ -29,7 +29,7 @@ I'm a full-stack developer specializing in React and Node.js. I love building we
 
 ## Visit my protfolio
 
-[![Snapshot](public/snapshot.png)]()
+[![Snapshot](sample.png)]()
 
 ## Connect w/ me
 
