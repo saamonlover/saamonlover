@@ -29,7 +29,7 @@ I'm a full-stack developer specializing in React and Node.js. I love building we
 
 ## Visit my protfolio
 
-[![Snapshot](sample.png)]()
+[![Snapshot](sample.png)](https://november-neon.vercel.app/)
 
 ## Connect w/ me
 
